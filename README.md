@@ -11,31 +11,27 @@
 
 The website Etiemar automates the hiring process by evaluating resumes and presenting the results in dashboards to assist in selecting the most qualified applicants for vacant positions, with a lot of features such as: 
 
-- [Visualizing] candidates' information.
-- [Displaying employees' information]. 
-- [Displaying] [vacant positions].
-- [Editing] [job] [requirements].
+- Visualizing candidates' information.
+- Displaying employees' information. 
+- Displaying vacant positions.
+- Editing job requirements.
 - Adding job requirements.
 - Deleting job requirements.
 - Displaying candidate information.
-- [Filtering/Matching] candidates.
+- Filtering/Matching candidates.
 - Suggesting candidates.
 - Contacting candidates.
 - Displaying department information.
 
 Since Etiemar is a new website, there is still work to be done; we are not yet finished with Etiemar. Continue to await the final result.  
 
-## Learning Laravel
+## Learning Etiemar
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The most comprehensive and extended usage is found in Etiemar. Despite the ease of usage, we are currently developing a comprehensive tutorial on Etiemar. 
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Etiemar Sponsors
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+To establish Etiemar, we would like to expand our website and collaborate with sponsors.
 
 ### Premium Partners
 
