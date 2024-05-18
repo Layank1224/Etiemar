@@ -4,7 +4,7 @@
     <div data-simplebar class="h-100">
 
         <!-- User details -->
-        <div class="user-profile text-center mt-3">
+        <div class="user-profile text-center mt-1">
             <div class="">
                 <img src="{{ asset('assets/images/users/avatar-1.jpg') }} " alt=""
                     class="avatar-md rounded-circle">
@@ -52,49 +52,49 @@
 
                             <li>
                                 <a href="{{ route('jobs') }}" class="waves-effect">
-                                    <span class="mdi mdi-badge-account-outline"></span>
+                                    <i class="ri-briefcase-2-fill"></i>
                                     <span>Vacant Position</span>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="{{ route('candidates') }}" class="waves-effect">
-                                    <span class="mdi mdi-card-account-details-outline"></span>
+                                    <i class="ri-user-follow-line"></i>
                                     <span>Candidates Information</span>
                                 </a>
 
                             </li>
                             <li>
                                 <a href="#" class="waves-effect">
-                                    <span class="mdi mdi-account"></span>
+                                    <i class=" ri-contacts-fill"></i>
                                     <span>Employees Information</span>
                                 </a>
 
                             </li>
                             <li>
                                 <a href="#" class="waves-effect">
-                                    <span class="ri-user-follow-fill"></span>
+                                    <i class="ri-user-follow-fill"></i>
                                     <span>Attendence</span>
                                 </a>
 
                             </li>
                             <li>
                                 <a href="#" class="waves-effect">
-                                    <span class="ri-user-unfollow-line"></span>
+                                    <i class="ri-user-unfollow-line"></i>
                                     <span>Leaves</span>
                                 </a>
 
                             </li>
                             <li>
                                 <a href="#" class="waves-effect">
-                                    <span class=" dripicons-suitcase"></span>
+                                    <i class="ri-newspaper-fill"></i>
                                     <span>Holiday</span>
                                 </a>
 
                             </li>
                             <li>
                                 <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <span class="mdi mdi-arrange-send-to-back"></span>
+                                    <i class="ri-equalizer-line"></i>
                                     <span>Customize</span>
                                     <!--<ul class="sub-menu" aria-expanded="true">-->
                                 </a>
@@ -110,16 +110,16 @@
 
 
                             <li>
-                                <div class="log-out-btn">
+                                {{-- <div class="log-out-btn"> --}}
                                     <a href="{{ route('logout') }}" class="waves-effect"
                                         onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                                        <span class="mdi mdi-logout-variant"></span>
+                                        <i class="ri-share-forward-2-line"></i>
                                         <span>Log out</span>
                                     </a>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
-                                </div>
+                                {{-- </div> --}}
 
                             </li>
 

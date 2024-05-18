@@ -28,7 +28,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title mb-4">Line with Data Labels</h4>
+                        <h4 class="card-title mb-4">Total number of candidates in each dapartment</h4>
 
                         <div id="line_chart_datalabel" class="apex-charts" dir="ltr"></div>
                     </div>
@@ -61,7 +61,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title mb-4">Column Chart</h4>
+                        <h4 class="card-title mb-4">Total number of candidates in IT department</h4>
 
                         <div id="column_chart" class="apex-charts" dir="ltr"></div>
                     </div>
@@ -74,7 +74,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title mb-4">Column with Data Labels</h4>
+                        <h4 class="card-title mb-4">Total number of candidates in each vacant position</h4>
 
                         <div id="column_chart_datalabel" class="apex-charts" dir="ltr"></div>
                     </div>
@@ -83,7 +83,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title mb-4">Bar Chart</h4>
+                        <h4 class="card-title mb-4">Total number of candidates in each mounth</h4>
 
                         <div id="bar_chart" class="apex-charts" dir="ltr"></div>
                     </div>
@@ -119,7 +119,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title mb-4">Pie Chart</h4>
+                        <h4 class="card-title mb-4">Total number of candidates in IT department</h4>
 
                         <div id="pie_chart" class="apex-charts" dir="ltr"></div>
                     </div>
@@ -128,7 +128,7 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-body">
-                        <h4 class="card-title mb-4">Donut Chart</h4>
+                        <h4 class="card-title mb-4">Total number of candidates in IT department</h4>
 
                         <div id="donut_chart" class="apex-charts" dir="ltr"></div>
                     </div>

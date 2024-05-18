@@ -185,7 +185,7 @@
         position: absolute;
         transform: translate(-1%, -50%);
         top: 30%;
-        left: 66%;
+        left: 320px;
         width: 81.5px;
         /* Set width */
         height: 30.04px;
@@ -206,7 +206,7 @@
         position: absolute;
         transform: translate(-1%, -50%);
         top: 61%;
-        left: 66%;
+        left: 320px;
         width: 81.5px;
         /* Set width */
         height: 30.04px;
@@ -227,7 +227,7 @@
         position: absolute;
         transform: translate(-1%, -50%);
         top: 93%;
-        left: 66%;
+        left: 320px;
         width: 81.5px;
         /* Set width */
         height: 30.04px;
@@ -304,77 +304,5 @@
     var chart = new ApexCharts(document.querySelector("#radial_chart"), options);
     chart.render();
 </script>
-<script>
-    var options = {
-        series: [{
-            name: "sales",
-            data: [{
-                x: '2019/01/01',
-                y: 400
-            }, {
-                x: '2019/04/01',
-                y: 430
-            }, {
-                x: '2019/07/01',
-                y: 448
-            }, {
-                x: '2019/10/01',
-                y: 470
-            }, {
-                x: '2020/01/01',
-                y: 540
-            }, {
-                x: '2020/04/01',
-                y: 580
-            }, {
-                x: '2020/07/01',
-                y: 690
-            }, {
-                x: '2020/10/01',
-                y: 690
-            }]
-        }],
-        chart: {
-            type: 'bar',
-            height: 180,
-
-        },
-        xaxis: {
-            type: 'category',
-            labels: {
-                formatter: function(val) {
-                    return "Q" + dayjs(val).quarter()
-                }
-            },
-            group: {
-                style: {
-                    fontSize: '10px',
-                    fontWeight: 700
-                },
-                groups: [{
-                        title: '2019',
-                        cols: 4
-                    },
-                    {
-                        title: '2020',
-                        cols: 4
-                    }
-                ]
-            }
-        },
-        title: {
-            text: 'Grouped Labels on the X-axis',
-        },
-        tooltip: {
-            x: {
-                formatter: function(val) {
-                    return "Q" + dayjs(val).quarter() + " " + dayjs(val).format("YYYY")
-                }
-            }
-        },
-    };
-
-    var chart = new ApexCharts(document.querySelector("#chart"), options);
-    chart.render();
-</script>
+<script src="{{ asset('assets/auth/js/pages/apexcharts.init.js') }}"></script>
 @endsection

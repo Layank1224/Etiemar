@@ -41,7 +41,7 @@
                                 <td data-field="id" style="width: 80px">1</td>
                                 <td data-field="job">Web devoleper</td>
                                 <td data-field="department">IT</td>
-                                <td data-field="position state"><button type="button" class="btn btn-outline-secondary waves-effect"><a
+                                <td data-field="position state"><button type="button" class="btn btn-success waves-effect waves-light"><a
                                     href="#">Vacant position</a></button></td>
                                 </tr>
 
@@ -49,7 +49,7 @@
                                     <td data-field="id">2</td>
                                     <td data-field="name">Marketing Manager</td>
                                     <td data-field="age">Marketing</td>
-                                    <td data-field="position state"><button type="button" class="btn btn-outline-secondary waves-effect"><a
+                                    <td data-field="position state"><button type="button" class="btn btn-success waves-effect waves-light"><a
                                         href="#">Vacant position</a></button></td>
                                     {{-- <td data-field="click"><button type="button"
                                             class="btn btn-outline-primary waves-effect waves-light"><a href="#">Click
@@ -58,6 +58,20 @@
                                             class="btn btn-outline-primary waves-effect waves-light"><a href="#">Click
                                                 for details</a></button></td> --}}
                                 </tr>
+                                <tr data-id="3">
+                                    <td data-field="id" style="width: 80px">3</td>
+                                    <td data-field="job">Full stack devolper</td>
+                                    <td data-field="department">IT</td>
+                                    <td data-field="position state"><button type="button" class="btn btn-success waves-effect waves-light"><a
+                                        href="#">Vacant position</a></button></td>
+                                    </tr>
+                                    <tr data-id="4">
+                                        <td data-field="id" style="width: 80px">4</td>
+                                        <td data-field="job">Finance</td>
+                                        <td data-field="department">Accountant</td>
+                                        <td data-field="position state"><button type="button" class="btn btn-success waves-effect waves-light"><a
+                                            href="#">Vacant position</a></button></td>
+                                        </tr>
                             </tbody>
                         </table>
                     </div>
@@ -228,5 +242,3 @@
     <!-- apexcharts init -->
     <script src="{{ asset('assets/js/pages/apexcharts.init.js') }} "></script>
 @endsection
-
-
