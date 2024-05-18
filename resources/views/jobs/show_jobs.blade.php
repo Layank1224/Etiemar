@@ -9,8 +9,8 @@
 
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">UI Elements</a></li>
-                        <li class="breadcrumb-item active">Session Timeout</li>
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">Positions</a></li>
+                        <li class="breadcrumb-item active">Position Description</li>
                     </ol>
                 </div>
 
