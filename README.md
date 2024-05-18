@@ -27,40 +27,25 @@ Since Etiemar is a new website, there is still work to be done; we are not yet f
 
 ## Learning Etiemar
 
-The most comprehensive and extended usage is found in Etiemar. Despite the ease of usage, we are currently developing a comprehensive tutorial on Etiemar. 
+The most comprehensive and extended usage is found in Etiemar. Despite the ease of usage, we are currently developing a comprehensive tutorial on Etiemar.
+
+## Tools/Languages 
+
+- Frontend (HTML, CSS, Javascript).
+- Backend (PHP).
+- Framework (Laravel).
 
 ## Etiemar Sponsors
 
 To establish Etiemar, we would like to expand our website and collaborate with sponsors.
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+We appreciate your interest Etiemar and for making excellent use of our project.
 
-## Code of Conduct
+## Contact
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+E-mail: 
+- ran19co@gmail.com
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
