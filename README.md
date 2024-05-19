@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Etemar Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -28,12 +28,19 @@ Since Etiemar is a new website, there is still work to be done; we are not yet f
 ## Learning Etiemar
 
 The most comprehensive and extended usage is found in Etiemar. Despite the ease of usage, we are currently developing a comprehensive tutorial on Etiemar.
+But for now, these are the instructions to run Etiemar:
+
+- Open the terminal on Visual Studio Code.
+- Type [composer update] or [php artisan migrate:fresh --seed].
+- After that type [php artisan serve].
+- The terminal will display a Link, to run the link [Ctrl - Click].
 
 ## Tools/Languages 
 
-- Frontend (HTML, CSS, Javascript).
-- Backend (PHP).
-- Framework (Laravel).
+- Frontend [HTML, CSS, Javascript].
+- Backend [PHP].
+- Framework [Laravel].
+- Libraries [Auth, Assets]
 
 ## Etiemar Sponsors
 
