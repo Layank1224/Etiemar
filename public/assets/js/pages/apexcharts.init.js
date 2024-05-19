@@ -57,19 +57,19 @@ options = {
     stroke: { width: [3, 4, 3], curve: "straight", dashArray: [0, 8, 5] },
     series: [
         {
-            name: "Session Duration",
+            name: "Accountant",
             data: [45, 52, 38, 24, 33, 26, 21, 20, 6, 8, 15, 10],
         },
         {
-            name: "Page Views",
+            name: "Financial Analyst",
             data: [36, 42, 60, 42, 13, 18, 29, 37, 36, 51, 32, 35],
         },
         {
-            name: "Total Visits",
+            name: "Investment Banker",
             data: [89, 56, 74, 98, 72, 38, 64, 46, 84, 58, 46, 49],
         },
     ],
-    title: { text: "Page Statistics", align: "left" },
+    title: { text: "Candidates", align: "left" },
     markers: { size: 0, hover: { sizeOffset: 6 } },
     xaxis: {
         categories: [
@@ -131,13 +131,13 @@ options = {
     xaxis: {
         type: "datetime",
         categories: [
-            "2018-09-19T00:00:00",
-            "2018-09-19T01:30:00",
-            "2018-09-19T02:30:00",
-            "2018-09-19T03:30:00",
-            "2018-09-19T04:30:00",
-            "2018-09-19T05:30:00",
-            "2018-09-19T06:30:00",
+            "2024-09-19T00:00:00",
+            "2024-09-19T01:30:00",
+            "2024-09-19T02:30:00",
+            "2024-09-19T03:30:00",
+            "2024-09-19T04:30:00",
+            "2024-09-19T05:30:00",
+            "2024-09-19T06:30:00",
         ],
     },
     grid: { borderColor: "#f1f1f1", padding: { bottom: 15 } },
@@ -313,17 +313,17 @@ options = {
     colors: ["#1cbb8c", "#fcb92c", "#0f9cf3"],
     series: [
         {
-            name: "Team A",
+            name: "IT",
             type: "column",
             data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30],
         },
         {
-            name: "Team B",
+            name: "Marketing",
             type: "area",
             data: [44, 55, 41, 67, 22, 43, 21, 41, 56, 27, 43],
         },
         {
-            name: "Team C",
+            name: "HR",
             type: "line",
             data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39],
         },
@@ -340,27 +340,27 @@ options = {
         },
     },
     labels: [
-        "01/01/2003",
-        "02/01/2003",
-        "03/01/2003",
-        "04/01/2003",
-        "05/01/2003",
-        "06/01/2003",
-        "07/01/2003",
-        "08/01/2003",
-        "09/01/2003",
-        "10/01/2003",
-        "11/01/2003",
+        "01/12/2023",
+        "02/12/2023",
+        "03/12/2023",
+        "04/12/2023",
+        "05/01/2024",
+        "06/01/2024",
+        "07/01/2024",
+        "08/01/2024",
+        "09/01/2024",
+        "10/01/2024",
+        "11/01/2024",
     ],
     markers: { size: 0 },
     xaxis: { type: "datetime" },
-    yaxis: { title: { text: "Points" } },
+    yaxis: { title: { text: "Candidates" } },
     tooltip: {
         shared: !0,
         intersect: !1,
         y: {
             formatter: function (e) {
-                return void 0 !== e ? e.toFixed(0) + " points" : e;
+                return void 0 !== e ? e.toFixed(0) + " person" : e;
             },
         },
     },
@@ -389,7 +389,7 @@ options = {
         },
     },
     series: [44, 55, 67, 83],
-    labels: ["Match", "Mismatch", "Total", "In progress"],
+    labels: ["HR", "IT", "Total", "Marketing"],
     colors: ["#0f9cf3", "#fcb92c", "#1cbb8c", "#f32f53"],
     legend: { offsetY: 5 },
 };
@@ -400,7 +400,7 @@ options = {
 options = {
     chart: { height: 320, type: "pie" },
     series: [44, 55, 41, 17, 15],
-    labels: ["Web developer", "Network administrator", "Content marketing specialist", "Accountant", "IT support specialist"],
+    labels: ["Marketing Manager", "Digital Marketing Specialist", "Brand Ambassador", "Accountant", "IT support specialist"],
     colors: ["#1cbb8c", "#0f9cf3", "#fcb92c", "#4aa3ff", "#f32f53"],
     legend: {
         show: !0,

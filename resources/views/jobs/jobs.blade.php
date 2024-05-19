@@ -7,7 +7,7 @@
         <div class="col-sm-6">
             <form action="{{ route('search-filter') }}" method="GET">
                 <div class="input-group">
-                    <input name="search" class="form-control" type="search" placeholder="...">
+                    <input name="search" class="form-control" type="search" placeholder="Search..">
                     <select name="department_id" class="form-select" placeholder=" ">
                         <option value=""> </option>
                         @foreach ($departments as $dep)
